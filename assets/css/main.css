@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #411565;
+}
+
+.header {
+  height: 1268px;
+  padding-top: 40px;
+  color: #fff;
+}
+.header .navbar__logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+.header .navbar__logo img {
+  width: 40px;
+  height: 40px;
+}
+.header .navbar__logo p {
+  font-size: 2rem;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.header .navbar__lists ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.7rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.header .navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+.header .navbar__menu i {
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.header .navbar__menu img {
+  width: 30px;
+  height: 30px;
+}
+
+.header .content .content__heading {
+  font-family: "Raleway", sans-serif;
+  margin-top: 25rem;
+}
+.header .content .content__heading h1 {
+  font-size: 15rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.header .content .content__desc {
+  font-family: "Raleway", sans-serif;
+}
+.header .content .content__desc h2 {
+  font-size: 5rem;
+}
+.header .content .content__srcoll {
+  margin-top: 70px;
+  font-size: 2rem;
+}
+.header .content .content__srcoll p {
+  margin-left: -18rem;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.header::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1308px;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: url(../IMAGES/HEADER/content/image_bg/bg._headerpng.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
